@@ -1,0 +1,366 @@
+
+
+
+/* Tablet (Portrait) = Design for a width of 730px
+ ================================================== */
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+	
+	body {
+	background: #000;
+}
+.main-menu .nav li {
+	padding: 16px 10px 0px;
+}
+.intro {
+	min-height: 750px;
+}
+.headline h2 {
+	font-size: 100px;
+	margin: 550px 0 0;
+	text-align:center;
+}
+.about-view, .about-view.signup-btn, .about-view.team-btn {
+	margin: 0 auto;
+	text-align: center;
+	float: none;
+}
+.challenge {
+	margin: 0 0 30px;
+	background: #fff;
+	padding: 20px 20px 10px;
+}
+.challenge h2 {
+	font-size: 60px;
+	margin: 20px 0 80px;
+	text-align: center;
+}
+.sign-up {
+	position: relative;
+	background-position: center center;
+	background-size: contain;
+	z-index: 1;
+}
+.sign-up:after {
+	background: rgba(0, 0, 0, 0.3);
+}
+.preferred-venue {
+	left: 0;
+}
+.info h2, .info p {
+	color: #fff;
+}
+.info-card {
+	height:auto;
+}
+.info-card p {
+	color: #000;
+}
+.abaya {
+	display:none;
+}
+.faq h2, .faq h3, .header-title, .card-body p {
+	text-align: center;
+}
+}
+
+
+
+/* Tablet (Landscape) = Design for a width of 1024px
+ ================================================== */
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+  	
+  	body {
+	background-color: #000;
+}
+.intro {
+	display: block;
+	justify-content: left;
+	align-items: left;
+	position: relative;
+	min-height: 700px;
+	top: 80px;
+	margin: 0 0 80px;
+}
+.headline h2 {
+	font-size: 100px;
+	margin: 250px 0 0;
+}
+.challenge {
+	margin-bottom: 30px;
+	background: #fff;
+	padding: 20px 20px 10px;
+}
+.challenge h2 {
+	margin: 50px 0 80px;
+	text-align: center;
+}
+.section-head h2 {
+	margin-bottom: 50px;
+}
+.info h2, .info p {
+	color: #fff;
+}
+	  
+.venue-card {
+	height:auto;
+	  }
+.info-card {
+	height: 600px;
+}
+.info-card p {
+	color: #000;
+}
+	  
+.quote {
+	background: url(../images/info/teamwork.jpg) no-repeat center;
+	background-size: contain;
+}	  
+	  
+.abaya {
+	padding: 100px 0 100px;
+	margin: 0 0 50px;
+	background: #000 url(../images/on-the-day/abaya.jpg) no-repeat top right;
+	background-size: cover;
+}
+.takepart {
+	background-size: contain;
+}
+.takepart:after {
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.2) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 72%, rgba(0,0,0,1) 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.2) 0%,rgba(0,0,0,1) 50%,rgba(0,0,0,1) 72%,rgba(0,0,0,1) 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,1) 50%,rgba(0,0,0,1) 72%,rgba(0,0,0,1) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 );
+	/* IE6-9 */
+}
+
+.preferred-venue {
+	left: 50px;
+}
+
+
+}
+
+
+
+
+/* Mobile (Portrait) = Design for a width of 280px
+ ================================================== */
+
+@media only screen and (max-width: 767px) {
+	
+	body {
+	background: #000;
+}
+#sticky-wrapper{
+	background: #000;
+}
+.sticky-wrapper .navbar-collapse.collapse.in{
+	background: #000;
+	width: 112%;
+	margin-left: -14px;
+	padding-left: 27px;
+}
+.logo {
+	float: left;
+}
+.main-menu .navbar-toggle {
+	float: right;
+	margin: 17px 0;
+}
+.navbar-collapse {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.main-menu .nav li a {
+	font-size: 18px;
+	padding: 0px 1px 10px;
+	display: inline-block;
+}
+.sticky-wrapper.is-sticky .main-menu .nav a:before {
+	bottom: 0px;
+}
+.home-border {
+	display:none;
+}
+#video-viewport {
+	position: absolute;
+	top: 80px;
+	left: 0;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	z-index: -1;
+	background-color: #000;
+	background-image: url(../video/vidbg.gif);
+	background-size: cover;
+	background-position: center;
+}
+video {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.fullsize-video-bg {
+	height: 100%;
+	overflow: hidden;
+}
+.intro {
+	display: block;
+	justify-content: left;
+	align-items: left;
+	position: relative;
+	min-height: 500px;
+	top:80px;
+}
+.intro:before {
+	position: absolute;
+	content: "";
+	top: 80px;
+	left: 0;
+	width: 100%;
+	height: 92%;
+	background: none;
+}
+.headline h2 {
+	font-size: 44px;
+	margin: 350px 0 0;
+	text-align: center;
+}
+.section-head {
+	margin: 30px 0 30px;
+}
+.section-head h2, .summary-content-box h2 {
+	font-size: 32px;
+}
+.info h2, .info p {
+	color: #fff;
+}
+.info-card, .venue-card {
+	height: auto;
+}
+.info-card p {
+	color: #000;
+}
+.challenge {
+	margin: 30px 0 30px;
+	background: #fff;
+	padding: 20px 20px 10px;
+}
+.challenge h2 {
+	margin: 0 0 40px;
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+}
+.challenge p {
+	color: #000;
+	font-size: 20px;
+	text-transform: inherit;
+	margin: 10px 0;
+	line-height: 1.8;
+	text-align: center;
+}
+.quote {
+	padding: 30px ;
+	background-image: none;
+	background-color: #000;
+}
+.quote h3 {
+	font-size: 100px;
+	margin: 0 0 0;
+	text-align: center;
+}
+p.name {
+	text-align: center;
+	margin: 20px auto;
+	font-weight:900;
+}
+.charity {
+	position: relative;
+	background: #000;
+	padding: 0 0 30px;
+}
+.charity h2 {
+	color: #fff;
+}
+.charity p, .quote p, .gallery p {
+	text-align: center;
+}
+.takepart {
+	padding: 0 0 50px;
+	background-image:none;
+	background-color: #000;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+}
+.sign-up {
+	position: relative;
+	background: #000;
+	background-image: none;
+	z-index: 1;
+}
+.preferred-venue, .abaya {
+	display:none;
+}
+.owl-item .active {
+	border: none;
+}
+.teamidea-single {
+	padding: 40px 0;
+	box-shadow: none;
+	margin:0;
+	border:none;
+}
+.signup-btn-group {
+	display: block;
+	margin: 0 auto 50px;
+	width: 100%;
+}
+.about-view, .about-view.signup-btn, .about-view.team-btn {
+	margin: 0 auto;
+	text-align: center;
+	float: none;
+}
+.info {
+	padding: 0 0 30px;
+}
+.hide {
+	height: 0px;
+	margin:0;
+	padding: 0;
+}
+.faq h2, .faq h3, .header-title, .card-body p {
+	text-align: center;
+}
+.card {
+	padding: 0 30px 20px;
+	margin: 0 0 10px;
+}
+
+.venues-head h1 {margin: 100px auto 30px; font-size: 30px; }
+	
+}
+
+
+/* Mobile (Landscape) = Design for a width of 480px
+ ================================================== */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	
+}
